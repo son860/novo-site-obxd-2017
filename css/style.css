@@ -11,12 +11,13 @@
 
     @font-face {
         font-family: 'renogareregular';
-        src: url('renogare-webfont/renogare-webfont.eot');
-        src: url('renogare-webfont/renogare-webfont.eot?#iefix') format('embedded-opentype'),
-             url('renogare-webfont/renogare-webfont.woff2') format('woff2'),
-             url('renogare-webfont/renogare-webfont.woff') format('woff'),
-             url('renogare-webfont/renogare-webfont.ttf') format('truetype'),
-             url('renogare-webfont/renogare-webfont.svg#renogareregular') format('svg');
+        src: url('~/css/renogare-webfont/renogare-webfont.eot');
+        src: url('~/css/renogare-webfont/renogare-webfont.eot?#iefix') format('embedded-opentype'),
+             url('~/css/renogare-webfont/renogare-webfont.woff2') format('woff2'),
+             url('~/css/renogare-webfont/renogare-webfont.woff') format('woff'),
+             url('~/css/renogare-webfont/renogare-webfont.ttf') format('truetype'),
+             url('~/css/renogare-webfont/renogare-demo.html') format('html'),
+             url('~/css/renogare-webfont/renogare-webfont.svg#renogareregular') format('svg');
         font-weight: normal;
         font-style: normal;
     }
@@ -353,7 +354,7 @@
     a.text-p-home:hover{
       font-family: 'Renogare', sans-serif;
       font-size:24px;
-      color:#00ff7e;
+      color:#2f3192;
       cursor: pointer;
       transition: linear 0.3s all;
     }
@@ -1020,7 +1021,7 @@
     a.text-p-home:hover{
       font-family: 'Renogare', sans-serif;
       font-size:24px;
-      color:#00ff7e;
+      color:#2f3192;
       cursor: pointer;
       transition: linear 0.3s all;
     }
@@ -1692,7 +1693,7 @@
     a.text-p-home:hover{
       font-family: 'Renogare', sans-serif;
       font-size:24px;
-      color:#00ff7e;
+      color:#2f3192;
       cursor: pointer;
       transition: linear 0.3s all;
     }
@@ -2366,7 +2367,7 @@
   a.text-p-home:hover{
     font-family: 'Renogare', sans-serif;
     font-size:24px;
-    color:#00ff7e;
+    color:#2f3192;
     cursor: pointer;
     transition: linear 0.3s all;
   }
@@ -3044,7 +3045,7 @@
   a.text-p-home:hover{
     font-family: 'Renogare', sans-serif;
     font-size:24px;
-    color:#00ff7e;
+    color:#2f3192;
     cursor: pointer;
     transition: linear 0.3s all;
   }
@@ -3714,7 +3715,7 @@
   a.text-p-home:hover{
     font-family: 'Renogare', sans-serif;
     font-size:24px;
-    color:#00ff7e;
+    color:#2f3192;
     cursor: pointer;
     transition: linear 0.3s all;
   }
@@ -4388,7 +4389,7 @@
   a.text-p-home:hover{
     font-family: 'Renogare', sans-serif;
     font-size:24px;
-    color:#00ff7e;
+    color:#2f3192;
     cursor: pointer;
     transition: linear 0.3s all;
   }
@@ -5063,7 +5064,7 @@
   a.text-p-home:hover{
     font-family: 'Renogare', sans-serif;
     font-size:24px;
-    color:#00ff7e;
+    color:#2f3192;
     cursor: pointer;
     transition: linear 0.3s all;
   }
@@ -5746,7 +5747,7 @@
   a.text-p-home:hover{
     font-family: 'Renogare', sans-serif;
     font-size:24px;
-    color:#00ff7e;
+    color:#2f3192;
     cursor: pointer;
     transition: linear 0.3s all;
   }

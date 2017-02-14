@@ -4,7 +4,9 @@
       <meta charset="utf-8">
       <title>OBXD, a Internet Experience. Publicidade Inteligente.</title>
           <meta name="Description" content="A OBXD é uma empresa 100% fora da caixa que pensa soluções incríveis de Vendas On-Line e Tecnologia aos nossos clientes. Trabalhamos desde a sites institucionais, passando por Marketing Digital, Publicidade Inteligente, SEO e E-commerce">
-  		    <meta property="og:title" content="Teste de Envio via FormMail" />
+          <meta name="keywords" content="Marketing Digital, Marketing, Design, Design de Interface, User Experience, Desenvolvimento de Sites, Desenvolvimento de E-commerce, Desenvolvimento de Apps, Consultoria Digital, Publicidade Inteligente, Publicidade, Criaçao de Logotipos, Branding, Sistemas e TI, Programação, Agência Digital, Agência de Publicidade, Agência de Propaganda, Agência mais em conta"/>
+          <meta name="robots" content="index, follow">
+          <meta property="og:title" content="Teste de Envio via FormMail" />
           <meta property="og:locale" content="pt_br" />
           <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
           <link href="https://fonts.googleapis.com/css?family=Tienne" rel="stylesheet">
@@ -50,6 +52,7 @@
                     <li><a href="servicos.html">Serviços</a></li>
                     <li><a href="#">Clientes</a></li>
                     <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Fazemos seu front-end</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Mais</a></li>
                     <li><a href="#" class="x-close">X</a></li>
@@ -174,8 +177,7 @@
             	  </form>
 
                 <div id="emails">
-                  <a href="mailto:comercial@obxd.com.br" class="emails">comercial@obxd.com.br</a>
-                  <a href="mailto:emerson.garcia@obxd.com.br" class="emails">emerson.garcia@obxd.com.br</a>
+                
                 </div>
 
             </article>
@@ -199,5 +201,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="js/modal-menu.js"></script>
         <script src="js/links.js"></script>
+
+        <script type="text/javascript">
+			function hgsubmit() {
+				if (/\S+/.test(document.hgmailer.nome.value) == false) alert ("Por favor, digite um nome.");
+				else if (/^\S+@[a-z0-9_.-]+\.[a-z]{2,6}$/i.test(document.hgmailer.email.value) == false) alert ("Um endereço de e-mail válido é requerido.");
+				else if (/\S+/.test(document.hgmailer.mensagem.value) == false) alert ("É necessário um conteúdo para mensagem.");
+				else {
+				document.hgmailer.submit();
+				alert ('Obrigado!\nSeu e-mail foi enviado com sucesso.');
+				}
+			}
+        </script>
     </body>
 </html>
